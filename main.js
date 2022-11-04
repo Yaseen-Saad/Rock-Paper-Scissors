@@ -67,15 +67,19 @@ function starrt(ele) {
     again.classList.remove("active");
   }, 1500);
 }
+
 imgs.forEach((ele) => {
   ele.onclick = () => {
     starrt(ele);
   };
 });
+
 function startGame() {
   start.style.display = "none";
   game.style.display = "flex";
 }
+
 again.onclick = () => {
   location.reload();
 };
+
