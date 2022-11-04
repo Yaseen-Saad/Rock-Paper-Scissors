@@ -13,7 +13,7 @@ let game = document.querySelector("main >div:last-child"),
   rps = ["rock", "paper", "scissors"];
 console.log(again);
 function choose(src) {
-  src = src.match(/[a-z]+\./gi)[0].split(".")[0];
+  src = src.match(/\/[a-z]+\.svg/gi)[0].split(".")[0];
   choise = src;
 }
 function CompChoise() {
